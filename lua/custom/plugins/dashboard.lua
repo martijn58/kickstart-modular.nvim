@@ -1,6 +1,7 @@
 return {
   {
     'nvimdev/dashboard-nvim',
+    enabled = false,
     lazy = false,
     event = 'VimEnter',
     opts = function()
